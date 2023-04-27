@@ -1,3 +1,5 @@
 npm install jest @types/jest -D 
 
 jest --coverage
+
+jest --coverage --watch
