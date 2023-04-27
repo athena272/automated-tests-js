@@ -1,19 +1,17 @@
-exports.sum = (a, b) => {
+sum = (a, b) => {
     return a + b
 }
-
-exports.modulus = (x) => {
+modulus = (x) => {
     return x < 0 ? -x : x
 }
-
-exports.sayHelloTo = (name) => {
+sayHelloTo = (name) => {
     return `Hello, ${name}!`
 }
-
-exports.duplicateObject = (obj) => {
+duplicateObject = (obj) => {
     return { ...obj }
 }
-
-exports.addProduct = (product, cart) => {
+addProduct = (product, cart) => {
     cart.push(product)
 }
+
+module.exports = { sum, modulus, sayHelloTo, duplicateObject, addProduct }
