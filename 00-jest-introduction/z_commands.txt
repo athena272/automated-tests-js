@@ -1,7 +1,0 @@
-npm install jest @types/jest -D 
-
-jest --coverage
-
-jest --coverage --watch
-
-npx jest --init
